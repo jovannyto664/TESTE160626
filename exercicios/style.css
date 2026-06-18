@@ -1,0 +1,64 @@
+/* 1. Estilização Geral da Página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8fafc; /* Cinza bem claro moderno */
+    color: #1e293b;          /* Grafite escuro para leitura */
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* 2. Título Principal (Cenário 1) */
+#titulo-boas-vindas {
+    color: #1e3a8a; /* Azul Escuro */
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+/* 3. Bloco de Notificação (Cenário 1) */
+#bloco-notificacao {
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* 4. Parágrafos de Status (Cenário 2) */
+.item-status {
+    background-color: #f1f5f9;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-left: 4px solid #94a3b8; /* Borda lateral de destaque */
+    border-radius: 0 4px 4px 0;
+}
+
+/* 5. Rodapé (Cenário 3) */
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px dashed #cbd5e1;
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* 6. Estilização do Botão de Ação */
+button {
+    display: block;
+    width: 100%;
+    background-color: #2563eb; /* Azul Interativo */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background-color: #1d4ed8; /* Escurece levemente no hover */
+}
